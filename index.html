@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clube Desportivo Blue Lock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <ul id="nav-links">
+                    <a class = "divisoria">|</a>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#modalidades">Modalidades</a></li>
+                    <li><a href="#precos">Preços</a></li>
+                    <li><a href="#contactos">Contactos</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" onclick="toggleMenu()">&#9776;</button>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <img src="logo.png" alt="Logo Blue Lock" class="hero-logo">
+            <h1>Bem-vindo ao Clube Desportivo Blue Lock</h1>
+            <p>"Onde o foco vence o medo."<br>Esgrima e Boxe para todas as idades!</p>
+        </div>
+    </section>    
+
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p><strong>Missão:</strong> Promover a prática da esgrima e do boxe com formação de qualidade num ambiente de respeito e superação.</p>
+            <p><strong>Visão:</strong> Ser referência nacional na formação desportiva em esgrima e boxe.</p>
+            <p><strong>Valores:</strong> Disciplina, Respeito, Inclusão, Coragem, Excelência, Espírito de equipa, Ética desportiva.</p>
+        </div>
+    </section>
+
+    <section id="modalidades">
+        <div class="container">
+            <h2>Modalidades</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Boxe</h3>
+                    <p>Treinos técnicos e recreativos. Boxe Fitness para adultos.</p>
+                </div>
+                <div class="card">
+                    <h3>Esgrima</h3>
+                    <p>Formação de iniciação e avançada. Projetos educativos para escolas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="precos">
+        <div class="container">
+            <h2>Preços</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Serviço</th>
+                        <th>Preço</th>
+                        <th>Notas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Aulas 2x/semana</td><td>25€ - 30€/mês</td><td>Crianças e Jovens</td></tr>
+                    <tr><td>Aulas 3x/semana</td><td>35€ - 40€/mês</td><td>Adultos / Competição</td></tr>
+                    <tr><td>Personalizadas</td><td>20€ - 30€/sessão</td><td>Individuais ou Duplas</td></tr>
+                    <tr><td>Boxe Fitness</td><td>25€/mês</td><td>Adultos</td></tr>
+                    <tr><td>Aula Avulso</td><td>10€ - 15€</td><td>Por marcação</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="contactos">
+        <div class="container">
+            <h2>Contactos</h2>
+            <p><strong>Morada:</strong> Fafe, Portugal</p>
+            <p><strong>Email:</strong> (Adicionar Email)</p>
+            <p><strong>Telefone:</strong> (Adicionar Telefone)</p>
+            <p><strong>Horários:</strong> Segunda a sexta 17h-22h | Sábado 9h-13h</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Clube Desportivo Blue Lock &copy; 2025 - Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
