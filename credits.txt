@@ -1,0 +1,5 @@
+ This complete website was developed by Diogo Pinto, a Programming student.
+ The website in question is a PAP (used in Portuguese schools as a means of final school assessment), and its commercial distribution or use of my code is not permitted.
+ This work is completely simple, I know much more about the languages in question, if anyone is interested in my work I am ready for new proposals.
+
+By Diogo Pinto | Muriz12.
